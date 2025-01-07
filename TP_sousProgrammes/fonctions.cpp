@@ -3,3 +3,8 @@
 //
 
 #include "fonctions.h"
+
+//Fonction Bonjour personalisé
+void hello(string nom) {
+    cout << "Bonjour "<< nom << endl;
+}

@@ -2,6 +2,9 @@
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    string nom{};
+    cout << "Nom d'utilisateur : ";
+    getline(cin, nom);
+
+    hello(nom);
 }
