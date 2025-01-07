@@ -8,6 +8,11 @@
 #include <iostream>
 using namespace std;
 
+//En tete fonction hello
 void hello(string nom);
+
+longueurPhrase(string phrase);
+
+void message();
 
 #endif //FONCTIONS_H
